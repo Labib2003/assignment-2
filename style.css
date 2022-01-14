@@ -1,0 +1,78 @@
+/* common styles */
+.common-text{
+    font-family: Poppins;
+    font-size: 15px;
+}
+body{
+    margin: 0;
+}
+header{
+    margin: 50px 100px 0 100px;
+}
+
+/* title and navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+}
+.navigation{
+    display: flex;
+    font-size: 20px;
+}
+.navigation>i{
+    padding-left: 35px;
+}
+
+/* headline */
+.headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headline-text{
+    width: 582px;
+    height: 270px;
+}
+.headline-text>h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+}
+.headline-text>p{
+    font-weight: 700;
+    position: relative;
+    top: -20px;
+}
+.button{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+}
+.button:hover{
+    font-size: 18px;
+    transition: font-size ease-out .2s;
+}
+.headline-image{
+    width: 475px;
+    display: flex;
+    align-items: center;
+}
+.camera{
+    position: absolute;
+    right: 125px;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
