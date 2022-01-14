@@ -1,35 +1,57 @@
 /* common styles */
-.common-text{
+p{
     font-family: Poppins;
     font-size: 15px;
+}
+h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+}
+h2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 25px;
+}
+h3{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 28px;
+}
+h4{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 28px;
+}
+h5{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
 }
 body{
     margin: 0;
 }
-header{
-    margin: 50px 100px 0 100px;
-}
 
-/* title and navigation */
+/* header styles */
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.header-container{
+    width: 1200px;
+}
+/* title and navigation styles */
 nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 50px;
 }
-.title{
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 20px;
-}
-.navigation{
-    display: flex;
-    font-size: 20px;
-}
-.navigation>i{
+nav>h2>i{
     padding-left: 35px;
 }
 
-/* headline */
+/* headline and camera styles */
 .headline{
     display: flex;
     justify-content: space-between;
@@ -38,11 +60,6 @@ nav{
 .headline-text{
     width: 582px;
     height: 270px;
-}
-.headline-text>h1{
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 50px;
 }
 .headline-text>p{
     font-weight: 700;
@@ -69,10 +86,57 @@ nav{
     align-items: center;
 }
 .camera{
-    position: absolute;
-    right: 125px;
+    position: relative;
+    right: 450px;
+}
+
+/* main section styles */
+main{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    width: 1047px;
+}
+.logo-container{
+    margin-bottom: 100px;
 }
 .logos{
     display: flex;
     justify-content: space-around;
+}
+.main-container>h3{
+    text-align: center;
+}
+.populer-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.card{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.100);
+    padding: 15px;
+}
+.details>h4{
+    position: relative;
+    top: -20px;
+}
+.details>h5{
+    position: relative;
+    top: -45px;
+}
+.details>p{
+    position: relative;
+    top: -70px;
+}
+.details>p>i{
+    color: #FB8200;
+}
+
+.see-more{
+    display: flex;
+    justify-content: end;
 }
