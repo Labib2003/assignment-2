@@ -60,6 +60,10 @@ nav>h2>i{
 .headline-text{
     width: 582px;
 }
+.headline-text:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-out;
+}
 .headline-text>p{
     font-weight: 700;
     position: relative;
@@ -75,14 +79,14 @@ nav>h2>i{
     position: relative;
     top: 30px;
 }
-.button:hover{
-    padding: 10px 35px;
-    transition: 0.5s ease-out;
-}
 .headline-image{
     width: 475px;
     display: flex;
     align-items: center;
+}
+.headline-image:hover{
+    transform: rotate(360deg);
+    transition: 1s ease-in-out;
 }
 .camera{
     position: relative;
@@ -166,8 +170,16 @@ main{
 .cert>img{
     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.300);
 }
+.cert>img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+}
 .cert-info{
     width: 610px;
+}
+.cert-info p>a:hover{
+    padding: 10px 35px;
+    transition: 0.3s ease-out;
 }
 
 
