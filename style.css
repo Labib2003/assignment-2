@@ -76,8 +76,8 @@ nav>h2>i{
     top: 30px;
 }
 .button:hover{
-    font-size: 18px;
-    transition: 0.1s ease-out;
+    padding: 10px 35px;
+    transition: 0.5s ease-out;
 }
 .headline-image{
     width: 475px;
@@ -138,11 +138,13 @@ main{
     color: #FB8200;
 }
 
+/* see more styles */
 .see-more{
     display: flex;
     justify-content: end;
 }
-.see-more>p{
+.see-more a{
+    text-decoration: none;
     font-weight: 700;
     color: #E02C6D;
 }
@@ -200,10 +202,9 @@ footer{
 }
 .icons>i{
     font-size: 25px;
-}
-.icons>i:hover{
-    font-size: 30px;
-    transition: 0.1s ease-out;
+    background-color:#181635;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 /* media queary */
@@ -225,6 +226,7 @@ footer{
     .headline-image{
         transform: scale(0.8);
     }
+
     .logo-container{
         display: none;
     }
@@ -257,6 +259,7 @@ footer{
     .headline-image{
         transform: scale(1);
     }
+
     .logo-container{
         display: none;
     }
